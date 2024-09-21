@@ -21,26 +21,26 @@
 //     console.log('heyyyy!!!')
 // }
 
-// //3rd Approch
-// let btn=document.querySelector('button')
-// btn.addEventListener('click',()=>{
-//   console.log('hellooo!!!')
-// })
-
-// let div=document.querySelector('div')
-
-// let inr=document.querySelector('input')
-// inr.addEventListener('input',(e)=>{
-//     // console.let('heyy!!!');
-//     console.log(e.target.value);
-//     div.innerText=e.target.value
-// })
-
-let form=document.querySelector('form')
-form.addEventListener('button',(e)=>{
-    e.preventDefault()
-    console.log(e.target.value);
-    form.innerText=e.target.value
+//3rd Approch
+let btn=document.querySelector('button')
+btn.addEventListener('click',()=>{
+  console.log('hellooo!!!')
 })
+
+let div=document.querySelector('div')
+
+let inr=document.querySelector('input')
+inr.addEventListener('input',(e)=>{
+    // console.log('heyy!!!');
+    console.log(e.target.value);
+    div.innerText=e.target.value
+})
+
+// let form=document.querySelector('form')
+// form.addEventListener('button',(e)=>{
+//     e.preventDefault()
+//     console.log(e.target.value);
+//     form.innerText=e.target.value
+// })
 
 

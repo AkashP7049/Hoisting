@@ -79,16 +79,18 @@
 
 
 // function outer(){
+//     let data  =10
 //     console.log('outer');
 //     function inner(){
-//         console.log('inner');
+//         console.log(data);
         
 //     }
 //     return inner
     
 // }
-// let inner=outer
+// let inner=outer()
 // inner()
+
 
 //QUS :LET arr  [ 1,2,3,4,"hello","hii", false]
 
